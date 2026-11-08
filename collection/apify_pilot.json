@@ -1,0 +1,11 @@
+{
+  "appIds": [
+    "com.netflix.mediaclient",
+    "com.amazon.avod.thirdpartyclient",
+    "in.startv.hotstar"
+  ],
+  "sort": "newest",
+  "maxReviews": 150,
+  "country": "in",
+  "language": "en"
+}

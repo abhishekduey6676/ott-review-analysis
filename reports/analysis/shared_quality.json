@@ -1,0 +1,44 @@
+[
+  {
+    "app_name":"JioHotstar",
+    "n":3515,
+    "nonblank":3515,
+    "median_words":5.0,
+    "short_le3":1396,
+    "missing_versions":1077,
+    "non_latin_script":68,
+    "unflagged":2161,
+    "mean_rating":2.6588904694,
+    "low_rating_pct":56.3015647226,
+    "high_rating_pct":39.4594594595,
+    "replies":327
+  },
+  {
+    "app_name":"Netflix",
+    "n":9244,
+    "nonblank":9243,
+    "median_words":5.0,
+    "short_le3":3912,
+    "missing_versions":1687,
+    "non_latin_script":56,
+    "unflagged":8018,
+    "mean_rating":4.2457810472,
+    "low_rating_pct":14.8420597144,
+    "high_rating_pct":80.3223712678,
+    "replies":0
+  },
+  {
+    "app_name":"Prime Video",
+    "n":2530,
+    "nonblank":2530,
+    "median_words":9.0,
+    "short_le3":749,
+    "missing_versions":312,
+    "non_latin_script":9,
+    "unflagged":1459,
+    "mean_rating":2.7924901186,
+    "low_rating_pct":52.1343873518,
+    "high_rating_pct":40.7509881423,
+    "replies":0
+  }
+]

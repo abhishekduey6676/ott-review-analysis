@@ -1,0 +1,132 @@
+{
+  "source_file": "dataset_google-play-reviews-scraper_2026-11-03_19-58-38-834.json",
+  "source_sha256": "34c280262e754403853cd9aca5b4b15789ec274c7fe905940ba1c54bdc0db063",
+  "audited_at_utc": "2026-11-03T20:00:17.419Z",
+  "export_filename_is_not_verified_collection_time": true,
+  "run_id": null,
+  "collection_input_verified": false,
+  "notes": [
+    "Input settings, run ID, cost and completeness are not included in this export and have not been verified.",
+    "Date ranges describe observed rows only; they do not establish exhaustive retrieval.",
+    "Short text is a screening measure, not a substantive-content classification.",
+    "Devanagari detection is a script flag, not language identification; Hinglish may use Latin script.",
+    "Repeated text from distinct review IDs is retained; repetition alone does not establish fraud."
+  ],
+  "total_rows": 450,
+  "error_rows": 0,
+  "duplicate_id_rows": 0,
+  "unique_successful_reviews": 450,
+  "unexpected_app_ids": [],
+  "error_codes": {},
+  "apps": [
+    {
+      "app_id": "com.netflix.mediaclient",
+      "app_name": "Netflix",
+      "returned_rows": 150,
+      "successful_rows": 150,
+      "unique_reviews": 150,
+      "duplicate_id_rows": 0,
+      "errors": 0,
+      "earliest_utc": "2026-11-02T07:24:24.000Z",
+      "latest_utc": "2026-11-02T19:54:38.000Z",
+      "earliest_ist_date": "2026-11-02",
+      "latest_ist_date": "2026-11-03",
+      "ratings": {
+        "1": 29,
+        "2": 3,
+        "3": 15,
+        "4": 23,
+        "5": 80
+      },
+      "invalid_scores": 0,
+      "missing_ids": 0,
+      "missing_or_invalid_dates": 0,
+      "blank_text": 0,
+      "short_text_le_3_words": 73,
+      "missing_versions": 23,
+      "reply_present": 0,
+      "reply_before_review": 0,
+      "devanagari_text": 0,
+      "repeated_exact_text_extra_rows": 16,
+      "per_ist_date": {
+        "2026-11-03": 20,
+        "2026-11-02": 130
+      },
+      "in_proposed_may_oct_window": 0
+    },
+    {
+      "app_id": "com.amazon.avod.thirdpartyclient",
+      "app_name": "Prime Video",
+      "returned_rows": 150,
+      "successful_rows": 150,
+      "unique_reviews": 150,
+      "duplicate_id_rows": 0,
+      "errors": 0,
+      "earliest_utc": "2026-11-01T03:40:52.000Z",
+      "latest_utc": "2026-11-02T19:47:12.000Z",
+      "earliest_ist_date": "2026-11-01",
+      "latest_ist_date": "2026-11-03",
+      "ratings": {
+        "1": 67,
+        "2": 8,
+        "3": 12,
+        "4": 9,
+        "5": 54
+      },
+      "invalid_scores": 0,
+      "missing_ids": 0,
+      "missing_or_invalid_dates": 0,
+      "blank_text": 0,
+      "short_text_le_3_words": 51,
+      "missing_versions": 16,
+      "reply_present": 0,
+      "reply_before_review": 0,
+      "devanagari_text": 0,
+      "repeated_exact_text_extra_rows": 12,
+      "per_ist_date": {
+        "2026-11-03": 4,
+        "2026-11-02": 74,
+        "2026-11-01": 72
+      },
+      "in_proposed_may_oct_window": 0
+    },
+    {
+      "app_id": "in.startv.hotstar",
+      "app_name": "JioHotstar",
+      "returned_rows": 150,
+      "successful_rows": 150,
+      "unique_reviews": 150,
+      "duplicate_id_rows": 0,
+      "errors": 0,
+      "earliest_utc": "2026-11-01T15:28:39.000Z",
+      "latest_utc": "2026-11-02T19:31:45.000Z",
+      "earliest_ist_date": "2026-11-01",
+      "latest_ist_date": "2026-11-03",
+      "ratings": {
+        "1": 92,
+        "2": 8,
+        "3": 6,
+        "4": 8,
+        "5": 36
+      },
+      "invalid_scores": 0,
+      "missing_ids": 0,
+      "missing_or_invalid_dates": 0,
+      "blank_text": 0,
+      "short_text_le_3_words": 45,
+      "missing_versions": 41,
+      "reply_present": 11,
+      "reply_before_review": 2,
+      "devanagari_text": 0,
+      "repeated_exact_text_extra_rows": 12,
+      "per_ist_date": {
+        "2026-11-03": 5,
+        "2026-11-02": 105,
+        "2026-11-01": 40
+      },
+      "in_proposed_may_oct_window": 0
+    }
+  ],
+  "manual_sample_method": "Within each app and rating, sort by SHA-256(review_id) and take up to four nonblank reviews. Disproportionate coding sample, not an estimate of theme frequency.",
+  "manual_sample_rows": 59
+}

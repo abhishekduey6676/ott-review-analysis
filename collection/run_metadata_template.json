@@ -1,0 +1,16 @@
+{
+  "actor_id": "apihq/google-play-reviews-scraper",
+  "run_id": null,
+  "run_started_at_utc": null,
+  "run_finished_at_utc": null,
+  "run_status": null,
+  "actual_input_file": null,
+  "export_file": null,
+  "actual_charge_usd": null,
+  "configured_max_charge_usd": null,
+  "returned_dataset_rows": null,
+  "stopped_at_item_cap": null,
+  "pagination_exhausted_per_app": null,
+  "errors_or_warnings": [],
+  "notes": "Fill from the actual Apify run. Leave unknown values null. Do not infer collection time, reviewer residence, or pagination completeness from the export filename."
+}

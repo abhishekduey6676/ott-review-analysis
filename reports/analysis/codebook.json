@@ -1,0 +1,19 @@
+{
+  "version": "lexical-v2",
+  "meaning": "Topic/candidate-friction mentions, not automatically negative or substantive; English-heavy with a few Romanised Hindi expressions.",
+  "rules": {
+    "ads": "\\b(?:ads?|adverts?|advertis\\w*|commercials?)\\b|\\b(?:many|much|over)\\s+adds\\b|\\badd\\s+(?:bahut|bohot|jyada)",
+    "extra_content_charges": "\\b(?:rent(?:al|als|ing|ed)?|paywall\\w*|pay\\s+extra|extra\\s+(?:pay\\w*|charg\\w*|money)|additional\\s+(?:subscr\\w*|charg\\w*)|paid content|buy(?:ing)?\\s+(?:movies?|films?|stuff)|cost you money)\\b",
+    "affordability": "\\b(?:expensive|costly|unaffordable|overpriced|price\\s+(?:increase|hike|keeps)|pricing plans|save money|reduce.{0,15}(?:price|cost)|high\\s+(?:price|cost)|more.{0,15}than.{0,10}worth)\\b",
+    "technical_friction": "\\b(?:crash\\w*|glitch\\w*|buffer\\w*|lag(?:ging|gy|s)?|stutter\\w*|freez\\w*|bug(?:s)?|re-?install\\w*|black screen|not (?:work\\w*|play\\w*|load\\w*|open\\w*)|(?:can.?t|cannot|won.?t|doesn.?t|don.?t|unable to)\\s+(?:even\\s+)?(?:play|watch|open|load)|keeps\\s+(?:load\\w*|stop\\w*)|video stops|only audio|poor quality|brightness problem|endless loading|breaks the stream)\\b",
+    "account_access": "\\b(?:log\\s?in|sign\\s?in|otp|password|household|account sharing|sharing policy|same wifi|own email|one email|profile.{0,30}email)\\b",
+    "catalogue_gaps": "\\b(?:missing|not available|unavailable|removed|remove shows|no variety|catalog(?:ue)?.{0,20}limited|more (?:regional|movies|shows)|wider selection|(?:don.?t|doesn.?t) have.{0,30}(?:movies?|shows?|series|seasons?|episodes?|titles?)|set a reminder|stream.{0,30}back|all movies in|give us the show|other streaming channels|content gets less)\\b",
+    "language_subtitles": "\\b(?:subtitles?|dubb\\w*|mother tongue|language|(?:in|more|need|want).{0,20}(?:tamil|telugu|hindi|malayalam|kannada|bengali))\\b",
+    "programme_reaction": "\\bbigg?\\s*boss\\b|\\b(?:evict\\w*|eliminat\\w*|woke|veerappan|insaf)\\b|\\b(?:show|story|series|programme|season)\\b.{0,60}\\b(?:scripted|bias\\w*|unfair|agenda)\\b|\\b(?:scripted|bias\\w*|unfair)\\b.{0,60}\\b(?:show|story|series|programme|season)\\b",
+    "discovery_controls": "\\b(?:search|recommend\\w*|fast forward|rewind|double tap|fit.{0,5}screen|zoom|resume|last played|continue watching|landscape|can.?t read|upcoming|cast(?:ing)?|roku|chromecast|not interested|re-?download|download(?:ing|s)?|white light|too much sound)\\b",
+    "support_billing": "\\b(?:customer (?:care|service|support)|refund\\w*|payment error|debited|charged twice|responses|replies|support team|cancel\\w*|recharge)\\b",
+    "live_context": "\\b(?:live|cricket|sports?|nba|cycling|football|match(?:es)?)\\b"
+  },
+  "development": "Pilot reading and 100 hash-sampled development reviews; no statistical model fitted. V2 narrows catalogue phrases and requires show context for ambiguous programme words after the audit and evidence check.",
+  "denominator": "All nonblank text reviews in the specified app/window. Different from earlier proposed substantive-only denominator, which cannot yet be reliably assigned."
+}

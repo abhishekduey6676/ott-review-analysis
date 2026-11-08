@@ -1,0 +1,10 @@
+.analysis_deps/
+__pycache__/
+.ott-build/
+.chart-data-*/
+
+# Local inputs and outputs with individual review text or source identifiers.
+/data/
+/reports/analysis/classification_audit.json
+/reports/analysis/evidence_candidates.json
+/reports/analysis/ott_analysis.sqlite

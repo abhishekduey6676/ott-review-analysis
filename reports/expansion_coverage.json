@@ -1,0 +1,135 @@
+{
+  "report_label": "expansion",
+  "audited_at_utc": "2026-11-03T20:31:56.775Z",
+  "target_window_ist": {
+    "start": "2026-05-01",
+    "end_inclusive": "2026-10-31"
+  },
+  "sources": [
+    {
+      "file": "dataset_google-play-reviews-scraper-task_2026-11-03_20-24-19-116.json",
+      "sha256": "f7b4e7142b6a5ed941525ee96b98d1010cbbae2532174fa37c5421730e86dc9b",
+      "rows": 30000
+    }
+  ],
+  "total_rows": 30000,
+  "unique_successful_review_ids": 30000,
+  "duplicate_id_rows": 0,
+  "conflicting_duplicate_snapshots": 0,
+  "conflicts": [],
+  "error_rows": 0,
+  "error_codes": {},
+  "malformed_rows": [],
+  "unexpected_apps": [],
+  "apps": [
+    {
+      "app_id": "com.netflix.mediaclient",
+      "app_name": "Netflix",
+      "unique_reviews": 10000,
+      "earliest_utc": "2026-10-02T05:12:18.000Z",
+      "latest_utc": "2026-11-02T20:05:00.000Z",
+      "target_window_reviews": 9454,
+      "target_month_counts": {
+        "2026-05": 0,
+        "2026-06": 0,
+        "2026-07": 0,
+        "2026-08": 0,
+        "2026-09": 0,
+        "2026-10": 9454
+      },
+      "start_boundary_reached": false,
+      "missing_target_months": [
+        "2026-05",
+        "2026-06",
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ],
+      "invalid_dates": 0,
+      "invalid_scores": 0,
+      "blank_text": 1,
+      "missing_versions": 1821,
+      "target_ratings": {
+        "1": 1129,
+        "2": 279,
+        "3": 454,
+        "4": 877,
+        "5": 6715
+      },
+      "errors": 0
+    },
+    {
+      "app_id": "com.amazon.avod.thirdpartyclient",
+      "app_name": "Prime Video",
+      "unique_reviews": 10000,
+      "earliest_utc": "2026-07-19T17:29:58.000Z",
+      "latest_utc": "2026-11-02T20:05:00.000Z",
+      "target_window_reviews": 9825,
+      "target_month_counts": {
+        "2026-05": 0,
+        "2026-06": 0,
+        "2026-07": 1303,
+        "2026-08": 3002,
+        "2026-09": 2795,
+        "2026-10": 2725
+      },
+      "start_boundary_reached": false,
+      "missing_target_months": [
+        "2026-05",
+        "2026-06"
+      ],
+      "invalid_dates": 0,
+      "invalid_scores": 0,
+      "blank_text": 0,
+      "missing_versions": 1266,
+      "target_ratings": {
+        "1": 4240,
+        "2": 842,
+        "3": 721,
+        "4": 674,
+        "5": 3348
+      },
+      "errors": 0
+    },
+    {
+      "app_id": "in.startv.hotstar",
+      "app_name": "JioHotstar",
+      "unique_reviews": 10000,
+      "earliest_utc": "2026-08-09T10:17:33.000Z",
+      "latest_utc": "2026-11-02T20:15:28.000Z",
+      "target_window_reviews": 9690,
+      "target_month_counts": {
+        "2026-05": 0,
+        "2026-06": 0,
+        "2026-07": 0,
+        "2026-08": 2197,
+        "2026-09": 3764,
+        "2026-10": 3729
+      },
+      "start_boundary_reached": false,
+      "missing_target_months": [
+        "2026-05",
+        "2026-06",
+        "2026-07"
+      ],
+      "invalid_dates": 0,
+      "invalid_scores": 0,
+      "blank_text": 0,
+      "missing_versions": 3020,
+      "target_ratings": {
+        "1": 4806,
+        "2": 469,
+        "3": 452,
+        "4": 530,
+        "5": 3433
+      },
+      "errors": 0
+    }
+  ],
+  "caveats": [
+    "Boundary reach and nonempty months do not establish exhaustive pagination or representative coverage.",
+    "Country/language settings and run status are not verified by this file. Keep each run input and metadata.",
+    "Conflicting duplicate snapshots require an explicit substantive merge policy; this report uses latest review timestamp for coverage only.",
+    "Do not combine different language samples for primary rates without assessing overlap and weighting."
+  ]
+}
